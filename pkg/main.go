@@ -17,14 +17,12 @@ const (
 )
 
 func main() {
-	//testSearch()
 	initialLoad()
-	//testAgentLoad()
 
 }
 
 func initialLoad() {
-	Put(GuidanceResource, GuidanceUrl, "")
+	//Put(GuidanceResource, GuidanceUrl, "")
 	Put(ObservationResource, ObservationUrl, "")
 }
 
